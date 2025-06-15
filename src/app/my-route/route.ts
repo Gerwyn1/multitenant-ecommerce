@@ -12,3 +12,11 @@ export const GET = async () => {
 
   return Response.json(data)
 }
+
+
+  // depth: 1, // 0 = flat sub-document, 1 or more = Populate subcategories
+  //   where: {
+  //     parent: {
+  //       exists: false,
+  //     },
+  //   },
